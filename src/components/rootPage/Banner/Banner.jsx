@@ -25,21 +25,21 @@ const CarouselContainer = styled(Carousel)`
 const data = [
   {
     url: banner1,
-    title: '슬기로운 OTT 생활',
-    subtitle: 'Submate와 함께해요!',
-    backgroundColor: 'yellow.4',
+    title: '"쉽고 간편하게 구독 관리!"',
+    subtitle: '지금 당신의 구독 서비스를 최적화하세요.',
+    backgroundColor: '#E0FFFF',
   },
   {
     url: banner2,
-    title: '현명한 구독관리',
-    subtitle: '지금 바로 시작해보아요!',
-    backgroundColor: 'violet.4',
+    title: '"숨은 구독 찾기!"',
+    subtitle: '사용하지 않는 구독 서비스를 찾아내고 절약하세요',
+    backgroundColor: '#FFF0F5',
   },
   {
     url: banner3,
-    title: '나의 Submate',
-    subtitle: '만들어 보고 싶다면',
-    backgroundColor: 'blue.4',
+    title: '"원하는 작품을 한 눈에!"',
+    subtitle: 'OTT별 콘텐츠를 쉽게 검색하세요',
+    backgroundColor: '#F0FFF0',
   },
 ];
 

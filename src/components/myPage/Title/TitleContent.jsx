@@ -90,7 +90,7 @@ const TitleContent = () => {
         ) : (
           userName
         )}
-        {!editMode && "'s Universe"}
+        {!editMode && "'s Page"}
       </PageTitle>
       <Button variant="subtle" compact aria-label="edit button" onClick={clickEditIcon}>
         <IconPencil size={15} />

@@ -45,7 +45,7 @@ const ShellHeader = () => {
           </Link>
           <Flex h={40} align="end">
             <Title size={14} fw="100" italic>
-              Beta
+              Submate
             </Title>
           </Flex>
         </Flex>

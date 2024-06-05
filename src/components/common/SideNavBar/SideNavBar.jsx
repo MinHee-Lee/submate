@@ -46,7 +46,7 @@ const CustomLink = styled(Link)`
 const tabs = [
   {
     link: '/mypage',
-    label: 'My Universe',
+    label: 'My Submate',
     icon: <IconPlanet size={16} />,
     category: 'watch',
   },
@@ -136,7 +136,7 @@ const SideNavBar = () => {
                   </Link>
                 </Group>
                 <Text size={12} align="center">
-                  Copyright © 2023
+                  Submate © 2024
                   <br />
                    All rights reserved
                 </Text>

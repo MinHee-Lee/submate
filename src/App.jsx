@@ -1,3 +1,5 @@
+// React 애플리케이션의 설정을 구성
+
 import { RecoilRoot } from 'recoil';
 import { RouterProvider } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';

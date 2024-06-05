@@ -1,11 +1,15 @@
 import axios from 'axios';
 
 const url = `/api/auth`;
+// const { VITE_CORS_SERVER_URL } = import.meta.env;
+
+
 // 192.168.1.22 backend 개발 필요 (회원가입 기능같은 추가기능 개발하려면...)
-const { VITE_CORS_SERVER_URL = '' } = import.meta.env;
+const { VITE_CORS_SERVER_URL = 'http://localhost:4173' } = import.meta.env;
 
 const checkVerify = async () => {
-  const res = await axios(`${VITE_CORS_SERVER_URL}${url}/verify`, { withCredentials: true });
+  const res = await axios(`${VITE_CORS_SERVER_URL}/api/auth/verify`, { withCredentials: true });
+
   return res.data;
 };
 

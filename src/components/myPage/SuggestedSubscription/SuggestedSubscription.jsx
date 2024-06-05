@@ -29,7 +29,7 @@ const SuggestedSubscription = () => {
     <Container m={0} p={0}>
       <Flex align="center" gap={20}>
         <Title order={2} size={30} align="left">
-          똑똑한 구독료
+          비용 분석 Let's Go !
         </Title>
         {providerIds && <ProviderAvatars providerIds={providerIds} size={32} />}
       </Flex>

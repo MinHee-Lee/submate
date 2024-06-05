@@ -21,7 +21,7 @@ const MyMenu = ({ initial }) => {
       <Menu.Dropdown>
         <Menu.Label>Application</Menu.Label>
         <Menu.Item icon={<IconPlanet size={14} />} component={Link} to={'/mypage'}>
-          My Universe
+          My Submate
         </Menu.Item>
         <Menu.Item icon={<IconMessageCircle size={14} />}>Message</Menu.Item>
         <Menu.Item icon={<IconSettings size={14} />} component={Link} to={'/editprofile'}>

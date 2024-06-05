@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const url = `/api/users`;
 
-const { VITE_CORS_SERVER_URL = '' } = import.meta.env;
+const { VITE_CORS_SERVER_URL } = import.meta.env;
 
 const fetchUser = async email => {
   const { data } = await axios.get(`${VITE_CORS_SERVER_URL}${url}/${email}`);
